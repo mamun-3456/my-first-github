@@ -1,8 +1,13 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+h1
+{
     background: aqua;
     color: lightcoral;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: "Tagesschrift", system-ui;
     font-style: italic;
     font-weight: 800;
     border: 10px solid violet;
@@ -12,6 +17,32 @@ h1{
     text-transform: lowercase;
     line-height: 50px;
     letter-spacing: 1px;
-    box-shadow: -10px 10px 15px;
-     margin: 10px; 
+    box-shadow: -10px 10px 15px;   
+}
+p{
+    color:brown;
+    text-indent: 30px;
+    text-decoration: solid;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+}
+div > ul > li{
+    color: crimson;
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+div ul > li{
+    color:blueviolet;
+    font-size:20px;
+    font-family: "Caveat", cursive;
+    font-weight: 800;
+}
+div ol >li{
+    color:blueviolet;
+    font-size:20px;
+    font-family: "Caveat", cursive;
+    font-weight: 800;
 }
